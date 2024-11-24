@@ -1,0 +1,4 @@
+Invoking command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution -- -j4 -l4
+Invoked command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution -- -j4 -l4
+Invoking command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution
+Invoked command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution

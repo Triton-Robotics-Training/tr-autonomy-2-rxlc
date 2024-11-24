@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target targetting[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/targetting.dir/src/targetting.cpp.o[0m
+[100%] [32m[1mLinking CXX executable targetting[0m
+[100%] Built target targetting
+-- Install configuration: ""
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/lib/solution/targetting
+-- Set runtime path of "/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/lib/solution/targetting" to ""
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/ament_index/resource_index/package_run_dependencies/solution
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/ament_index/resource_index/parent_prefix_path/solution
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/ament_prefix_path.sh
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/ament_prefix_path.dsv
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/path.sh
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/path.dsv
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.bash
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.sh
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.zsh
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.dsv
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.dsv
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/ament_index/resource_index/packages/solution
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/cmake/solutionConfig.cmake
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/cmake/solutionConfig-version.cmake
+-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.xml

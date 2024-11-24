@@ -1,0 +1,153 @@
+[0.237s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.237s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x76716d31bcd0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76716d464850>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76716d464850>>)
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.528s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.529s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.529s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.529s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.530s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.553s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(solution) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(solution) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(solution) by extension 'ignore_ament_install'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(solution) by extensions ['colcon_pkg']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(solution) by extension 'colcon_pkg'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(solution) by extensions ['colcon_meta']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(solution) by extension 'colcon_meta'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(solution) by extensions ['ros']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(solution) by extension 'ros'
+[0.559s] DEBUG:colcon.colcon_core.package_identification:Package 'solution' with type 'ros.ament_cmake' and name 'solution'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['ignore', 'ignore_ament_install']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'ignore'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'ignore_ament_install'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(spinnyrobot) by extension 'ros'
+[0.561s] DEBUG:colcon.colcon_core.package_identification:Package 'spinnyrobot' with type 'ros.ament_python' and name 'spinnyrobot'
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.562s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.605s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.615s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.619s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_args' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_target' from command line to 'None'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.720s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_clean_cache' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_clean_first' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'cmake_force_configure' from command line to 'False'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'ament_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'catkin_cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'solution' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.721s] DEBUG:colcon.colcon_core.verb:Building package 'solution' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution', 'merge_install': False, 'path': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution', 'symlink_install': False, 'test_result_base': None}
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_args' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_target' from command line to 'None'
+[0.721s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.722s] Level 5:colcon.colcon_core.verb:set package 'spinnyrobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.722s] DEBUG:colcon.colcon_core.verb:Building package 'spinnyrobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot', 'merge_install': False, 'path': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/spinnyrobot', 'symlink_install': False, 'test_result_base': None}
+[0.722s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.724s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.724s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution' with build type 'ament_cmake'
+[0.724s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution'
+[0.734s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.734s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.734s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.740s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/spinnyrobot' with build type 'ament_python'
+[0.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('spinnyrobot', 'ament_prefix_path')
+[0.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/hook/ament_prefix_path.ps1'
+[0.744s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/hook/ament_prefix_path.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/hook/ament_prefix_path.sh'
+[0.749s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.749s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution -DCMAKE_INSTALL_PREFIX=/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution
+[1.285s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/spinnyrobot'
+[1.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/spinnyrobot': PYTHONPATH=/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build install --record /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/install.log --single-version-externally-managed install_data
+[2.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/spinnyrobot' returned '0': PYTHONPATH=/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build install --record /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/install.log --single-version-externally-managed install_data
+[2.798s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot' for CMake module files
+[2.799s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot' for CMake config files
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/bin'
+[2.801s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/pkgconfig/spinnyrobot.pc'
+[2.802s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages'
+[2.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('spinnyrobot', 'pythonpath')
+[2.802s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/hook/pythonpath.ps1'
+[2.803s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/hook/pythonpath.dsv'
+[2.804s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/hook/pythonpath.sh'
+[2.804s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/bin'
+[2.804s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(spinnyrobot)
+[2.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/package.ps1'
+[2.807s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/package.dsv'
+[2.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/package.sh'
+[2.814s] INFO:colcon.colcon_core.shell:Creating package script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/package.bash'
+[2.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot/package.zsh'
+[2.818s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/colcon-core/packages/spinnyrobot)
+[4.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution -DCMAKE_INSTALL_PREFIX=/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution
+[4.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution -- -j4 -l4
+[24.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution -- -j4 -l4
+[24.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(solution)
+[24.864s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution' for CMake module files
+[24.864s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution' for CMake config files
+[24.865s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/bin'
+[24.865s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/lib/pkgconfig/solution.pc'
+[24.866s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/lib/python3.10/site-packages'
+[24.866s] Level 1:colcon.colcon_core.environment:checking '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/bin'
+[24.867s] INFO:colcon.colcon_core.shell:Creating package script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.ps1'
+[24.868s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.dsv'
+[24.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.sh'
+[24.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.bash'
+[24.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.zsh'
+[24.871s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/colcon-core/packages/solution)
+[24.882s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[24.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[24.883s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[24.883s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[24.898s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[24.898s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[24.898s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[24.935s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[24.935s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/local_setup.ps1'
+[24.939s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/_local_setup_util_ps1.py'
+[24.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/setup.ps1'
+[24.945s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/local_setup.sh'
+[24.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/_local_setup_util_sh.py'
+[24.948s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/setup.sh'
+[24.950s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/local_setup.bash'
+[24.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/setup.bash'
+[24.956s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/local_setup.zsh'
+[24.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/setup.zsh'

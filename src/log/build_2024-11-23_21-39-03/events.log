@@ -1,0 +1,289 @@
+[0.000000] (-) TimerEvent: {}
+[0.000930] (solution) JobQueued: {'identifier': 'solution', 'dependencies': OrderedDict()}
+[0.001081] (spinnyrobot) JobQueued: {'identifier': 'spinnyrobot', 'dependencies': OrderedDict()}
+[0.002834] (solution) JobStarted: {'identifier': 'solution'}
+[0.017083] (spinnyrobot) JobStarted: {'identifier': 'spinnyrobot'}
+[0.045320] (solution) JobProgress: {'identifier': 'solution', 'progress': 'cmake'}
+[0.052393] (solution) JobProgress: {'identifier': 'solution', 'progress': 'build'}
+[0.052538] (solution) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution', '--', '-j4', '-l4'], 'cwd': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'quinton'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/quinton'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1307'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9c5e01b82183a5c5c8c72bd06742b70b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'quinton'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'quinton'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/quinton/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/quinton-virtual-machine:@/tmp/.ICE-unix/1307,unix/quinton-virtual-machine:/tmp/.ICE-unix/1307'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/868b01c0_41e9_4350_a090_559e6e1b290f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z6A3X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.189'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9c5e01b82183a5c5c8c72bd06742b70b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.100339] (-) TimerEvent: {}
+[0.188016] (solution) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target targetting\x1b[0m\n'}
+[0.200644] (-) TimerEvent: {}
+[0.245444] (solution) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/targetting.dir/src/targetting.cpp.o\x1b[0m\n'}
+[0.300781] (-) TimerEvent: {}
+[0.402154] (-) TimerEvent: {}
+[0.503021] (-) TimerEvent: {}
+[0.606813] (-) TimerEvent: {}
+[0.707960] (-) TimerEvent: {}
+[0.810665] (-) TimerEvent: {}
+[0.912593] (-) TimerEvent: {}
+[1.013581] (-) TimerEvent: {}
+[1.116840] (-) TimerEvent: {}
+[1.217743] (-) TimerEvent: {}
+[1.282222] (spinnyrobot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/spinnyrobot', 'build', '--build-base', '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build', 'install', '--record', '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/spinnyrobot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'quinton', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/quinton', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1307', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9c5e01b82183a5c5c8c72bd06742b70b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'quinton', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'quinton', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/quinton/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/quinton-virtual-machine:@/tmp/.ICE-unix/1307,unix/quinton-virtual-machine:/tmp/.ICE-unix/1307', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/868b01c0_41e9_4350_a090_559e6e1b290f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z6A3X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.189', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9c5e01b82183a5c5c8c72bd06742b70b', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.318226] (-) TimerEvent: {}
+[1.421243] (-) TimerEvent: {}
+[1.521674] (-) TimerEvent: {}
+[1.622162] (-) TimerEvent: {}
+[1.724553] (-) TimerEvent: {}
+[1.757640] (spinnyrobot) StdoutLine: {'line': b'running egg_info\n'}
+[1.757943] (spinnyrobot) StdoutLine: {'line': b'writing ../build/spinnyrobot/spinnyrobot.egg-info/PKG-INFO\n'}
+[1.758141] (spinnyrobot) StdoutLine: {'line': b'writing dependency_links to ../build/spinnyrobot/spinnyrobot.egg-info/dependency_links.txt\n'}
+[1.759593] (spinnyrobot) StdoutLine: {'line': b'writing entry points to ../build/spinnyrobot/spinnyrobot.egg-info/entry_points.txt\n'}
+[1.759771] (spinnyrobot) StdoutLine: {'line': b'writing requirements to ../build/spinnyrobot/spinnyrobot.egg-info/requires.txt\n'}
+[1.759947] (spinnyrobot) StdoutLine: {'line': b'writing top-level names to ../build/spinnyrobot/spinnyrobot.egg-info/top_level.txt\n'}
+[1.764475] (spinnyrobot) StdoutLine: {'line': b"reading manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'\n"}
+[1.764781] (spinnyrobot) StdoutLine: {'line': b"writing manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'\n"}
+[1.767554] (spinnyrobot) StdoutLine: {'line': b'running build\n'}
+[1.767833] (spinnyrobot) StdoutLine: {'line': b'running build_py\n'}
+[1.767962] (spinnyrobot) StdoutLine: {'line': b'running install\n'}
+[1.768078] (spinnyrobot) StdoutLine: {'line': b'running install_lib\n'}
+[1.770261] (spinnyrobot) StdoutLine: {'line': b'running install_data\n'}
+[1.770507] (spinnyrobot) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.772194] (spinnyrobot) StdoutLine: {'line': b"removing '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.773085] (spinnyrobot) StdoutLine: {'line': b'Copying ../build/spinnyrobot/spinnyrobot.egg-info to /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info\n'}
+[1.777441] (spinnyrobot) StdoutLine: {'line': b'running install_scripts\n'}
+[1.814824] (spinnyrobot) StdoutLine: {'line': b'Installing spinnyrobot script to /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/spinnyrobot\n'}
+[1.816788] (spinnyrobot) StdoutLine: {'line': b"writing list of installed files to '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/install.log'\n"}
+[1.830128] (-) TimerEvent: {}
+[1.868542] (spinnyrobot) CommandEnded: {'returncode': 0}
+[1.895518] (spinnyrobot) JobEnded: {'identifier': 'spinnyrobot', 'rc': 0}
+[1.930292] (-) TimerEvent: {}
+[2.030932] (-) TimerEvent: {}
+[2.131855] (-) TimerEvent: {}
+[2.232447] (-) TimerEvent: {}
+[2.333248] (-) TimerEvent: {}
+[2.433837] (-) TimerEvent: {}
+[2.534420] (-) TimerEvent: {}
+[2.635349] (-) TimerEvent: {}
+[2.736042] (-) TimerEvent: {}
+[2.836784] (-) TimerEvent: {}
+[2.937413] (-) TimerEvent: {}
+[3.038030] (-) TimerEvent: {}
+[3.138958] (-) TimerEvent: {}
+[3.239845] (-) TimerEvent: {}
+[3.340504] (-) TimerEvent: {}
+[3.442442] (-) TimerEvent: {}
+[3.543953] (-) TimerEvent: {}
+[3.644706] (-) TimerEvent: {}
+[3.746490] (-) TimerEvent: {}
+[3.847072] (-) TimerEvent: {}
+[3.948209] (-) TimerEvent: {}
+[4.048945] (-) TimerEvent: {}
+[4.150523] (-) TimerEvent: {}
+[4.251199] (-) TimerEvent: {}
+[4.351791] (-) TimerEvent: {}
+[4.452357] (-) TimerEvent: {}
+[4.552934] (-) TimerEvent: {}
+[4.653573] (-) TimerEvent: {}
+[4.754420] (-) TimerEvent: {}
+[4.855274] (-) TimerEvent: {}
+[4.955869] (-) TimerEvent: {}
+[5.056701] (-) TimerEvent: {}
+[5.157394] (-) TimerEvent: {}
+[5.258239] (-) TimerEvent: {}
+[5.359765] (-) TimerEvent: {}
+[5.466409] (-) TimerEvent: {}
+[5.567856] (-) TimerEvent: {}
+[5.668740] (-) TimerEvent: {}
+[5.769260] (-) TimerEvent: {}
+[5.870159] (-) TimerEvent: {}
+[5.970731] (-) TimerEvent: {}
+[6.071758] (-) TimerEvent: {}
+[6.173343] (-) TimerEvent: {}
+[6.274281] (-) TimerEvent: {}
+[6.375403] (-) TimerEvent: {}
+[6.476927] (-) TimerEvent: {}
+[6.577838] (-) TimerEvent: {}
+[6.679374] (-) TimerEvent: {}
+[6.780478] (-) TimerEvent: {}
+[6.881315] (-) TimerEvent: {}
+[6.946284] (solution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:1\x1b[m\x1b[K:\n'}
+[6.946666] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:17:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat32Msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.946886] (solution) StderrLine: {'line': b'   17 |         void currentAngleCallback(const \x1b[01;31m\x1b[KFloat32Msg\x1b[m\x1b[K::SharedPtr msg);\n'}
+[6.947106] (solution) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.947333] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:17:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.947469] (solution) StderrLine: {'line': b'   17 |         void currentAngleCallback(const Float32Msg::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K);\n'}
+[6.947582] (solution) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.947693] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:17:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.947808] (solution) StderrLine: {'line': b'   17 |         void currentAngleCallback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst Float32Msg::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K);\n'}
+[6.951239] (solution) StderrLine: {'line': b'      |                                  \x1b[34m\x1b[K~\x1b[m\x1b[K                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[6.953676] (solution) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[6.953861] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:17:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[6.953989] (solution) StderrLine: {'line': b'   17 |         void currentAngleCallback(const Float32Msg::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K msg);\n'}
+[6.954109] (solution) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[6.954376] (solution) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[6.954650] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:17:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[6.954781] (solution) StderrLine: {'line': b'   17 |         void currentAngleCallback(const Float32Msg::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K);\n'}
+[6.954895] (solution) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[6.982030] (-) TimerEvent: {}
+[7.066704] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:20:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat32Msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.067926] (solution) StderrLine: {'line': b'   20 |         rclcpp::Subscription<\x1b[01;31m\x1b[KFloat32Msg\x1b[m\x1b[K>::SharedPtr current_angle_sub_;\n'}
+[7.068370] (solution) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.068495] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:20:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.068604] (solution) StderrLine: {'line': b'   20 |         rclcpp::Subscription<Float32Msg\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr current_angle_sub_;\n'}
+[7.068708] (solution) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.068811] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:20:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[7.068914] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:20:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[7.069015] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:20:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[7.069209] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:20:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.069406] (solution) StderrLine: {'line': b'   20 |         rclcpp::Subscription<Float32Msg>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K current_angle_sub_;\n'}
+[7.069517] (solution) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.069620] (solution) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.075485] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:20:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_angle_sub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.076495] (solution) StderrLine: {'line': b'   20 |         rclcpp::Subscription<Float32Msg>::SharedPtr \x1b[01;31m\x1b[Kcurrent_angle_sub_\x1b[m\x1b[K;\n'}
+[7.077464] (solution) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.082218] (-) TimerEvent: {}
+[7.091063] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:22:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat32Msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.091585] (solution) StderrLine: {'line': b'   22 |         rclcpp::Publisher<\x1b[01;31m\x1b[KFloat32Msg\x1b[m\x1b[K>::SharedPtr desired_angle_pub;\n'}
+[7.091721] (solution) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.092062] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:22:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.092249] (solution) StderrLine: {'line': b'   22 |         rclcpp::Publisher<Float32Msg\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr desired_angle_pub;\n'}
+[7.092388] (solution) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.092514] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:22:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.092635] (solution) StderrLine: {'line': b'   22 |         rclcpp::Publisher<Float32Msg>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K desired_angle_pub;\n'}
+[7.092741] (solution) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.092845] (solution) StderrLine: {'line': b'      |                                                 \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.093105] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:22:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kredeclaration of \xe2\x80\x98\x1b[01m\x1b[Kint Targetting::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.093230] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:20:43:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration \xe2\x80\x98\x1b[01m\x1b[Kint Targetting::SharedPtr\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.093303] (solution) StderrLine: {'line': b'   20 |         rclcpp::Subscription<Float32Msg>::\x1b[01;36m\x1b[KSharedPtr\x1b[m\x1b[K current_angle_sub_;\n'}
+[7.093719] (solution) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.101016] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:22:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_angle_pub\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.101918] (solution) StderrLine: {'line': b'   22 |         rclcpp::Publisher<Float32Msg>::SharedPtr \x1b[01;31m\x1b[Kdesired_angle_pub\x1b[m\x1b[K;\n'}
+[7.102843] (solution) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.135993] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTargetting::Targetting()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.136455] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:13:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcurrent_angle_sub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcurrent_angle\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.136594] (solution) StderrLine: {'line': b'   13 |     \x1b[01;31m\x1b[Kcurrent_angle_sub\x1b[m\x1b[K = this->create_subscription<Float32Msg>(\n'}
+[7.136703] (solution) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.136809] (solution) StderrLine: {'line': b'      |     \x1b[32m\x1b[Kcurrent_angle\x1b[m\x1b[K\n'}
+[7.151923] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:13:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat32Msg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.152321] (solution) StderrLine: {'line': b'   13 |     current_angle_sub = this->create_subscription<\x1b[01;31m\x1b[KFloat32Msg\x1b[m\x1b[K>(\n'}
+[7.152587] (solution) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.154450] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:14:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K_1\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.154789] (solution) StderrLine: {'line': b'   14 | nt_angle", 10, std::bind(&Targetting::currentAngleCallback, this, \x1b[01;31m\x1b[K_1\x1b[m\x1b[K));\n'}
+[7.154923] (solution) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.155031] (solution) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\n'}
+[7.155138] (solution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[7.155361] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[7.155475] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18\x1b[m\x1b[K,\n'}
+[7.155580] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.155699] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.156335] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.156582] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:4\x1b[m\x1b[K,\n'}
+[7.156708] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:1\x1b[m\x1b[K:\n'}
+[7.156817] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/functional:225:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::placeholders::_1\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.156922] (solution) StderrLine: {'line': b'  225 |     extern const _Placeholder<1> \x1b[01;36m\x1b[K_1\x1b[m\x1b[K;\n'}
+[7.162318] (solution) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.177767] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:16:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_angle_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.178075] (solution) StderrLine: {'line': b'   16 |     \x1b[01;31m\x1b[Kdesired_angle_pub\x1b[m\x1b[K = this->create_publisher<Float32Msg>(\n'}
+[7.178385] (solution) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.178514] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:16:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTargetting::create_publisher<Float32Msg>(const char [15], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.178622] (solution) StderrLine: {'line': b'   16 |     desired_angle_pub = \x1b[01;31m\x1b[Kthis->create_publisher<Float32Msg>(\x1b[m\x1b[K\n'}
+[7.178726] (solution) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.178792] (solution) StderrLine: {'line': b'   17 | \x1b[01;31m\x1b[K        "/desired_angle", 10)\x1b[m\x1b[K;\n'}
+[7.178864] (solution) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                              \n'}
+[7.178943] (solution) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[7.179023] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[7.179100] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.179194] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.h:4\x1b[m\x1b[K,\n'}
+[7.179281] (solution) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:1\x1b[m\x1b[K:\n'}
+[7.179377] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.179464] (solution) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[7.179556] (solution) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.179653] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.186658] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:\x1b[m\x1b[K At global scope:\n'}
+[7.186929] (-) TimerEvent: {}
+[7.187581] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:22:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat32Msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[7.187759] (solution) StderrLine: {'line': b'   22 | void Targetting::currentAngleCallback(const \x1b[01;31m\x1b[KFloat32Msg\x1b[m\x1b[K::SharedPtr msg) {\n'}
+[7.187837] (solution) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.187908] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:22:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.187987] (solution) StderrLine: {'line': b'   22 | oid Targetting::currentAngleCallback(const Float32Msg::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) {\n'}
+[7.188077] (solution) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.188149] (solution) StderrLine: {'line': b'\n'}
+[7.188277] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:22:66:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.188403] (solution) StderrLine: {'line': b'   22 | oid Targetting::currentAngleCallback\x1b[34m\x1b[K(\x1b[m\x1b[Kconst Float32Msg::SharedPtr\x1b[01;31m\x1b[K \x1b[m\x1b[K\x1b[32m\x1b[Kmsg\x1b[m\x1b[K) {\n'}
+[7.188469] (solution) StderrLine: {'line': b'      |                                     \x1b[34m\x1b[K~\x1b[m\x1b[K                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\x1b[32m\x1b[K~~~\x1b[m\x1b[K\n'}
+[7.188532] (solution) StderrLine: {'line': b'      |                                                                 \x1b[32m\x1b[K)\x1b[m\x1b[K\n'}
+[7.188662] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:22:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.188768] (solution) StderrLine: {'line': b'   22 | oid Targetting::currentAngleCallback(const Float32Msg::SharedPtr \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K) {\n'}
+[7.188835] (solution) StderrLine: {'line': b'      |                                                                  \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.188900] (solution) StderrLine: {'line': b'\n'}
+[7.231849] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Targetting::imageCallback(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.232387] (solution) StderrLine: {'line': b'\x1b[01m\x1b[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:70:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kdesired_angle_pub\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kdesired_angle_msg\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.232596] (solution) StderrLine: {'line': b'   70 |         \x1b[01;31m\x1b[Kdesired_angle_pub\x1b[m\x1b[K->publish(desired_angle_msg);\n'}
+[7.232830] (solution) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.232974] (solution) StderrLine: {'line': b'      |         \x1b[32m\x1b[Kdesired_angle_msg\x1b[m\x1b[K\n'}
+[7.287141] (-) TimerEvent: {}
+[7.388223] (-) TimerEvent: {}
+[7.489934] (-) TimerEvent: {}
+[7.590899] (-) TimerEvent: {}
+[7.691512] (-) TimerEvent: {}
+[7.794881] (-) TimerEvent: {}
+[7.895808] (-) TimerEvent: {}
+[7.997334] (-) TimerEvent: {}
+[8.099139] (-) TimerEvent: {}
+[8.201464] (-) TimerEvent: {}
+[8.304527] (-) TimerEvent: {}
+[8.405706] (-) TimerEvent: {}
+[8.506702] (-) TimerEvent: {}
+[8.608748] (-) TimerEvent: {}
+[8.709746] (-) TimerEvent: {}
+[8.810784] (-) TimerEvent: {}
+[8.913542] (-) TimerEvent: {}
+[9.014399] (-) TimerEvent: {}
+[9.114906] (-) TimerEvent: {}
+[9.217815] (-) TimerEvent: {}
+[9.318721] (-) TimerEvent: {}
+[9.420097] (-) TimerEvent: {}
+[9.521077] (-) TimerEvent: {}
+[9.622245] (-) TimerEvent: {}
+[9.723244] (-) TimerEvent: {}
+[9.825203] (-) TimerEvent: {}
+[9.926587] (-) TimerEvent: {}
+[10.027625] (-) TimerEvent: {}
+[10.128515] (-) TimerEvent: {}
+[10.231318] (-) TimerEvent: {}
+[10.332261] (-) TimerEvent: {}
+[10.432919] (-) TimerEvent: {}
+[10.533909] (-) TimerEvent: {}
+[10.634584] (-) TimerEvent: {}
+[10.740225] (-) TimerEvent: {}
+[10.840925] (-) TimerEvent: {}
+[10.942509] (-) TimerEvent: {}
+[11.043813] (-) TimerEvent: {}
+[11.145811] (-) TimerEvent: {}
+[11.246723] (-) TimerEvent: {}
+[11.347975] (-) TimerEvent: {}
+[11.449063] (-) TimerEvent: {}
+[11.549771] (-) TimerEvent: {}
+[11.650303] (-) TimerEvent: {}
+[11.752655] (-) TimerEvent: {}
+[11.853331] (-) TimerEvent: {}
+[11.954830] (-) TimerEvent: {}
+[12.055559] (-) TimerEvent: {}
+[12.156131] (-) TimerEvent: {}
+[12.256764] (-) TimerEvent: {}
+[12.357355] (-) TimerEvent: {}
+[12.457886] (-) TimerEvent: {}
+[12.562219] (-) TimerEvent: {}
+[12.663012] (-) TimerEvent: {}
+[12.763869] (-) TimerEvent: {}
+[12.865421] (-) TimerEvent: {}
+[12.965902] (-) TimerEvent: {}
+[13.066744] (-) TimerEvent: {}
+[13.167315] (-) TimerEvent: {}
+[13.269664] (-) TimerEvent: {}
+[13.370165] (-) TimerEvent: {}
+[13.474425] (-) TimerEvent: {}
+[13.575270] (-) TimerEvent: {}
+[13.675782] (-) TimerEvent: {}
+[13.777359] (-) TimerEvent: {}
+[13.878244] (-) TimerEvent: {}
+[13.959409] (solution) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/targetting.dir/build.make:76: CMakeFiles/targetting.dir/src/targetting.cpp.o] Error 1\n'}
+[13.960497] (solution) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/targetting.dir/all] Error 2\n'}
+[13.960664] (solution) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.965858] (solution) CommandEnded: {'returncode': 2}
+[13.978407] (-) TimerEvent: {}
+[14.077120] (solution) JobEnded: {'identifier': 'solution', 'rc': 2}
+[14.078635] (-) TimerEvent: {}
+[14.088492] (-) EventReactorShutdown: {}

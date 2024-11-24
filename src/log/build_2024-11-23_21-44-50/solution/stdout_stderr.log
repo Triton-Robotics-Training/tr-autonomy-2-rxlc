@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target targetting[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/targetting.dir/src/targetting.cpp.o[0m
+[01m[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:[m[K In constructor ‘[01m[KTargetting::Targetting()[m[K’:
+[01m[K/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/solution/src/targetting.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_angle_sub[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_angle_sub_[m[K’?
+   13 |     [01;31m[Kcurrent_angle_sub[m[K = this->create_subscription<Float32Msg>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+      |     [32m[Kcurrent_angle_sub_[m[K
+gmake[2]: *** [CMakeFiles/targetting.dir/build.make:76: CMakeFiles/targetting.dir/src/targetting.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/targetting.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

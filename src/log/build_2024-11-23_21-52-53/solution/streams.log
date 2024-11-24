@@ -1,0 +1,26 @@
+[0.037s] Invoking command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution -- -j4 -l4
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target targetting[0m
+[0.215s] [ 50%] [32mBuilding CXX object CMakeFiles/targetting.dir/src/targetting.cpp.o[0m
+[28.138s] [100%] [32m[1mLinking CXX executable targetting[0m
+[29.919s] [100%] Built target targetting
+[29.944s] Invoked command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution -- -j4 -l4
+[30.056s] Invoking command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution
+[30.075s] -- Install configuration: ""
+[30.076s] -- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/lib/solution/targetting
+[30.086s] -- Set runtime path of "/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/lib/solution/targetting" to ""
+[30.086s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/ament_index/resource_index/package_run_dependencies/solution
+[30.086s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/ament_index/resource_index/parent_prefix_path/solution
+[30.086s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/ament_prefix_path.sh
+[30.087s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/ament_prefix_path.dsv
+[30.087s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/path.sh
+[30.087s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/path.dsv
+[30.087s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.bash
+[30.087s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.sh
+[30.087s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.zsh
+[30.087s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.dsv
+[30.087s] -- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.dsv
+[30.088s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/ament_index/resource_index/packages/solution
+[30.088s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/cmake/solutionConfig.cmake
+[30.088s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/cmake/solutionConfig-version.cmake
+[30.089s] -- Up-to-date: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.xml
+[30.091s] Invoked command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution

@@ -1,0 +1,367 @@
+[0.000000] (-) TimerEvent: {}
+[0.000254] (solution) JobQueued: {'identifier': 'solution', 'dependencies': OrderedDict()}
+[0.000306] (spinnyrobot) JobQueued: {'identifier': 'spinnyrobot', 'dependencies': OrderedDict()}
+[0.000341] (solution) JobStarted: {'identifier': 'solution'}
+[0.013007] (spinnyrobot) JobStarted: {'identifier': 'spinnyrobot'}
+[0.029979] (solution) JobProgress: {'identifier': 'solution', 'progress': 'cmake'}
+[0.032346] (solution) JobProgress: {'identifier': 'solution', 'progress': 'build'}
+[0.032548] (solution) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution', '--', '-j4', '-l4'], 'cwd': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'quinton'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/quinton'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1307'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9c5e01b82183a5c5c8c72bd06742b70b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'quinton'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'quinton'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/quinton/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/quinton-virtual-machine:@/tmp/.ICE-unix/1307,unix/quinton-virtual-machine:/tmp/.ICE-unix/1307'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/868b01c0_41e9_4350_a090_559e6e1b290f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z6A3X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.189'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9c5e01b82183a5c5c8c72bd06742b70b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098562] (-) TimerEvent: {}
+[0.156226] (solution) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target targetting\x1b[0m\n'}
+[0.204278] (-) TimerEvent: {}
+[0.242835] (solution) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/targetting.dir/src/targetting.cpp.o\x1b[0m\n'}
+[0.306446] (-) TimerEvent: {}
+[0.407396] (-) TimerEvent: {}
+[0.507910] (-) TimerEvent: {}
+[0.609654] (-) TimerEvent: {}
+[0.710180] (-) TimerEvent: {}
+[0.810653] (-) TimerEvent: {}
+[0.911709] (-) TimerEvent: {}
+[1.014625] (-) TimerEvent: {}
+[1.115230] (-) TimerEvent: {}
+[1.215906] (-) TimerEvent: {}
+[1.316605] (-) TimerEvent: {}
+[1.417138] (-) TimerEvent: {}
+[1.483623] (spinnyrobot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/spinnyrobot', 'build', '--build-base', '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build', 'install', '--record', '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/spinnyrobot', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'quinton', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/quinton', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '1307', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9c5e01b82183a5c5c8c72bd06742b70b', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'quinton', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'quinton', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/quinton/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/quinton-virtual-machine:@/tmp/.ICE-unix/1307,unix/quinton-virtual-machine:/tmp/.ICE-unix/1307', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/868b01c0_41e9_4350_a090_559e6e1b290f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Z6A3X2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.189', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=9c5e01b82183a5c5c8c72bd06742b70b', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.519293] (-) TimerEvent: {}
+[1.620767] (-) TimerEvent: {}
+[1.723457] (-) TimerEvent: {}
+[1.829339] (-) TimerEvent: {}
+[1.932719] (-) TimerEvent: {}
+[2.033753] (spinnyrobot) StdoutLine: {'line': b'running egg_info\n'}
+[2.034491] (-) TimerEvent: {}
+[2.035788] (spinnyrobot) StdoutLine: {'line': b'writing ../build/spinnyrobot/spinnyrobot.egg-info/PKG-INFO\n'}
+[2.036029] (spinnyrobot) StdoutLine: {'line': b'writing dependency_links to ../build/spinnyrobot/spinnyrobot.egg-info/dependency_links.txt\n'}
+[2.036171] (spinnyrobot) StdoutLine: {'line': b'writing entry points to ../build/spinnyrobot/spinnyrobot.egg-info/entry_points.txt\n'}
+[2.036298] (spinnyrobot) StdoutLine: {'line': b'writing requirements to ../build/spinnyrobot/spinnyrobot.egg-info/requires.txt\n'}
+[2.036441] (spinnyrobot) StdoutLine: {'line': b'writing top-level names to ../build/spinnyrobot/spinnyrobot.egg-info/top_level.txt\n'}
+[2.048615] (spinnyrobot) StdoutLine: {'line': b"reading manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'\n"}
+[2.049143] (spinnyrobot) StdoutLine: {'line': b"writing manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'\n"}
+[2.049533] (spinnyrobot) StdoutLine: {'line': b'running build\n'}
+[2.049688] (spinnyrobot) StdoutLine: {'line': b'running build_py\n'}
+[2.049919] (spinnyrobot) StdoutLine: {'line': b'running install\n'}
+[2.050044] (spinnyrobot) StdoutLine: {'line': b'running install_lib\n'}
+[2.054339] (spinnyrobot) StdoutLine: {'line': b'running install_data\n'}
+[2.054698] (spinnyrobot) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.055668] (spinnyrobot) StdoutLine: {'line': b"removing '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.055889] (spinnyrobot) StdoutLine: {'line': b'Copying ../build/spinnyrobot/spinnyrobot.egg-info to /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info\n'}
+[2.056025] (spinnyrobot) StdoutLine: {'line': b'running install_scripts\n'}
+[2.102819] (spinnyrobot) StdoutLine: {'line': b'Installing spinnyrobot script to /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/spinnyrobot\n'}
+[2.103593] (spinnyrobot) StdoutLine: {'line': b"writing list of installed files to '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/install.log'\n"}
+[2.137727] (-) TimerEvent: {}
+[2.164831] (spinnyrobot) CommandEnded: {'returncode': 0}
+[2.202409] (spinnyrobot) JobEnded: {'identifier': 'spinnyrobot', 'rc': 0}
+[2.238220] (-) TimerEvent: {}
+[2.339088] (-) TimerEvent: {}
+[2.440306] (-) TimerEvent: {}
+[2.540951] (-) TimerEvent: {}
+[2.641610] (-) TimerEvent: {}
+[2.742587] (-) TimerEvent: {}
+[2.843556] (-) TimerEvent: {}
+[2.944361] (-) TimerEvent: {}
+[3.045316] (-) TimerEvent: {}
+[3.150746] (-) TimerEvent: {}
+[3.252291] (-) TimerEvent: {}
+[3.353449] (-) TimerEvent: {}
+[3.454615] (-) TimerEvent: {}
+[3.555296] (-) TimerEvent: {}
+[3.656088] (-) TimerEvent: {}
+[3.756835] (-) TimerEvent: {}
+[3.857530] (-) TimerEvent: {}
+[3.958171] (-) TimerEvent: {}
+[4.058804] (-) TimerEvent: {}
+[4.159362] (-) TimerEvent: {}
+[4.260595] (-) TimerEvent: {}
+[4.362972] (-) TimerEvent: {}
+[4.463741] (-) TimerEvent: {}
+[4.572479] (-) TimerEvent: {}
+[4.673653] (-) TimerEvent: {}
+[4.775224] (-) TimerEvent: {}
+[4.876496] (-) TimerEvent: {}
+[4.978595] (-) TimerEvent: {}
+[5.079393] (-) TimerEvent: {}
+[5.180363] (-) TimerEvent: {}
+[5.281561] (-) TimerEvent: {}
+[5.383795] (-) TimerEvent: {}
+[5.485564] (-) TimerEvent: {}
+[5.586678] (-) TimerEvent: {}
+[5.688060] (-) TimerEvent: {}
+[5.789555] (-) TimerEvent: {}
+[5.891028] (-) TimerEvent: {}
+[5.995211] (-) TimerEvent: {}
+[6.097063] (-) TimerEvent: {}
+[6.198084] (-) TimerEvent: {}
+[6.298645] (-) TimerEvent: {}
+[6.399295] (-) TimerEvent: {}
+[6.500015] (-) TimerEvent: {}
+[6.601498] (-) TimerEvent: {}
+[6.702320] (-) TimerEvent: {}
+[6.803055] (-) TimerEvent: {}
+[6.904260] (-) TimerEvent: {}
+[7.005038] (-) TimerEvent: {}
+[7.105863] (-) TimerEvent: {}
+[7.207880] (-) TimerEvent: {}
+[7.308506] (-) TimerEvent: {}
+[7.409064] (-) TimerEvent: {}
+[7.509590] (-) TimerEvent: {}
+[7.610410] (-) TimerEvent: {}
+[7.711500] (-) TimerEvent: {}
+[7.813458] (-) TimerEvent: {}
+[7.914476] (-) TimerEvent: {}
+[8.015045] (-) TimerEvent: {}
+[8.116044] (-) TimerEvent: {}
+[8.217034] (-) TimerEvent: {}
+[8.317989] (-) TimerEvent: {}
+[8.420527] (-) TimerEvent: {}
+[8.521356] (-) TimerEvent: {}
+[8.622507] (-) TimerEvent: {}
+[8.723226] (-) TimerEvent: {}
+[8.823785] (-) TimerEvent: {}
+[8.924909] (-) TimerEvent: {}
+[9.025585] (-) TimerEvent: {}
+[9.126550] (-) TimerEvent: {}
+[9.228521] (-) TimerEvent: {}
+[9.330469] (-) TimerEvent: {}
+[9.431765] (-) TimerEvent: {}
+[9.532627] (-) TimerEvent: {}
+[9.633596] (-) TimerEvent: {}
+[9.734137] (-) TimerEvent: {}
+[9.837385] (-) TimerEvent: {}
+[9.938142] (-) TimerEvent: {}
+[10.039194] (-) TimerEvent: {}
+[10.143139] (-) TimerEvent: {}
+[10.247954] (-) TimerEvent: {}
+[10.350578] (-) TimerEvent: {}
+[10.453778] (-) TimerEvent: {}
+[10.554297] (-) TimerEvent: {}
+[10.654978] (-) TimerEvent: {}
+[10.755485] (-) TimerEvent: {}
+[10.856501] (-) TimerEvent: {}
+[10.957146] (-) TimerEvent: {}
+[11.058376] (-) TimerEvent: {}
+[11.158975] (-) TimerEvent: {}
+[11.259520] (-) TimerEvent: {}
+[11.360742] (-) TimerEvent: {}
+[11.461293] (-) TimerEvent: {}
+[11.562068] (-) TimerEvent: {}
+[11.667633] (-) TimerEvent: {}
+[11.768163] (-) TimerEvent: {}
+[11.869703] (-) TimerEvent: {}
+[11.971012] (-) TimerEvent: {}
+[12.076117] (-) TimerEvent: {}
+[12.176852] (-) TimerEvent: {}
+[12.278031] (-) TimerEvent: {}
+[12.378665] (-) TimerEvent: {}
+[12.479198] (-) TimerEvent: {}
+[12.580938] (-) TimerEvent: {}
+[12.681479] (-) TimerEvent: {}
+[12.782019] (-) TimerEvent: {}
+[12.882558] (-) TimerEvent: {}
+[12.983511] (-) TimerEvent: {}
+[13.086334] (-) TimerEvent: {}
+[13.188020] (-) TimerEvent: {}
+[13.288615] (-) TimerEvent: {}
+[13.389268] (-) TimerEvent: {}
+[13.489927] (-) TimerEvent: {}
+[13.591436] (-) TimerEvent: {}
+[13.693417] (-) TimerEvent: {}
+[13.793986] (-) TimerEvent: {}
+[13.894761] (-) TimerEvent: {}
+[13.996435] (-) TimerEvent: {}
+[14.097774] (-) TimerEvent: {}
+[14.201916] (-) TimerEvent: {}
+[14.302774] (-) TimerEvent: {}
+[14.405838] (-) TimerEvent: {}
+[14.506545] (-) TimerEvent: {}
+[14.607497] (-) TimerEvent: {}
+[14.708588] (-) TimerEvent: {}
+[14.809134] (-) TimerEvent: {}
+[14.910323] (-) TimerEvent: {}
+[15.014199] (-) TimerEvent: {}
+[15.115218] (-) TimerEvent: {}
+[15.218208] (-) TimerEvent: {}
+[15.318787] (-) TimerEvent: {}
+[15.420473] (-) TimerEvent: {}
+[15.521584] (-) TimerEvent: {}
+[15.623695] (-) TimerEvent: {}
+[15.724693] (-) TimerEvent: {}
+[15.825520] (-) TimerEvent: {}
+[15.926463] (-) TimerEvent: {}
+[16.028007] (-) TimerEvent: {}
+[16.128531] (-) TimerEvent: {}
+[16.229701] (-) TimerEvent: {}
+[16.330347] (-) TimerEvent: {}
+[16.431732] (-) TimerEvent: {}
+[16.532637] (-) TimerEvent: {}
+[16.633198] (-) TimerEvent: {}
+[16.734283] (-) TimerEvent: {}
+[16.835211] (-) TimerEvent: {}
+[16.935885] (-) TimerEvent: {}
+[17.037308] (-) TimerEvent: {}
+[17.138564] (-) TimerEvent: {}
+[17.240013] (-) TimerEvent: {}
+[17.341107] (-) TimerEvent: {}
+[17.443375] (-) TimerEvent: {}
+[17.544202] (-) TimerEvent: {}
+[17.645010] (-) TimerEvent: {}
+[17.746001] (-) TimerEvent: {}
+[17.846514] (-) TimerEvent: {}
+[17.947438] (-) TimerEvent: {}
+[18.048625] (-) TimerEvent: {}
+[18.149568] (-) TimerEvent: {}
+[18.250525] (-) TimerEvent: {}
+[18.351548] (-) TimerEvent: {}
+[18.452152] (-) TimerEvent: {}
+[18.552825] (-) TimerEvent: {}
+[18.654075] (-) TimerEvent: {}
+[18.755360] (-) TimerEvent: {}
+[18.856350] (-) TimerEvent: {}
+[18.957202] (-) TimerEvent: {}
+[19.057892] (-) TimerEvent: {}
+[19.158601] (-) TimerEvent: {}
+[19.259694] (-) TimerEvent: {}
+[19.360598] (-) TimerEvent: {}
+[19.461504] (-) TimerEvent: {}
+[19.562118] (-) TimerEvent: {}
+[19.663632] (-) TimerEvent: {}
+[19.764513] (-) TimerEvent: {}
+[19.866022] (-) TimerEvent: {}
+[19.966988] (-) TimerEvent: {}
+[20.067867] (-) TimerEvent: {}
+[20.168645] (-) TimerEvent: {}
+[20.271938] (-) TimerEvent: {}
+[20.379693] (-) TimerEvent: {}
+[20.480699] (-) TimerEvent: {}
+[20.581673] (-) TimerEvent: {}
+[20.687665] (-) TimerEvent: {}
+[20.790911] (-) TimerEvent: {}
+[20.891732] (-) TimerEvent: {}
+[20.993505] (-) TimerEvent: {}
+[21.095497] (-) TimerEvent: {}
+[21.196611] (-) TimerEvent: {}
+[21.297138] (-) TimerEvent: {}
+[21.397830] (-) TimerEvent: {}
+[21.502049] (-) TimerEvent: {}
+[21.604076] (-) TimerEvent: {}
+[21.704636] (-) TimerEvent: {}
+[21.805530] (-) TimerEvent: {}
+[21.906303] (-) TimerEvent: {}
+[22.010486] (-) TimerEvent: {}
+[22.111032] (-) TimerEvent: {}
+[22.212005] (-) TimerEvent: {}
+[22.315670] (-) TimerEvent: {}
+[22.416770] (-) TimerEvent: {}
+[22.522279] (-) TimerEvent: {}
+[22.623820] (-) TimerEvent: {}
+[22.726719] (-) TimerEvent: {}
+[22.827544] (-) TimerEvent: {}
+[22.929609] (-) TimerEvent: {}
+[23.030220] (-) TimerEvent: {}
+[23.131097] (-) TimerEvent: {}
+[23.232031] (-) TimerEvent: {}
+[23.344968] (-) TimerEvent: {}
+[23.446349] (-) TimerEvent: {}
+[23.548007] (-) TimerEvent: {}
+[23.648964] (-) TimerEvent: {}
+[23.749553] (-) TimerEvent: {}
+[23.850471] (-) TimerEvent: {}
+[23.951254] (-) TimerEvent: {}
+[24.051853] (-) TimerEvent: {}
+[24.152376] (-) TimerEvent: {}
+[24.252969] (-) TimerEvent: {}
+[24.358499] (-) TimerEvent: {}
+[24.459372] (-) TimerEvent: {}
+[24.560256] (-) TimerEvent: {}
+[24.660901] (-) TimerEvent: {}
+[24.761965] (-) TimerEvent: {}
+[24.862868] (-) TimerEvent: {}
+[24.964064] (-) TimerEvent: {}
+[25.064599] (-) TimerEvent: {}
+[25.165602] (-) TimerEvent: {}
+[25.269036] (-) TimerEvent: {}
+[25.370226] (-) TimerEvent: {}
+[25.471119] (-) TimerEvent: {}
+[25.572043] (-) TimerEvent: {}
+[25.673293] (-) TimerEvent: {}
+[25.774145] (-) TimerEvent: {}
+[25.882151] (-) TimerEvent: {}
+[25.983038] (-) TimerEvent: {}
+[26.084809] (-) TimerEvent: {}
+[26.187520] (-) TimerEvent: {}
+[26.288252] (-) TimerEvent: {}
+[26.390875] (-) TimerEvent: {}
+[26.493521] (-) TimerEvent: {}
+[26.594295] (-) TimerEvent: {}
+[26.696761] (-) TimerEvent: {}
+[26.797997] (-) TimerEvent: {}
+[26.900730] (-) TimerEvent: {}
+[27.002787] (-) TimerEvent: {}
+[27.103693] (-) TimerEvent: {}
+[27.204640] (-) TimerEvent: {}
+[27.306487] (-) TimerEvent: {}
+[27.407395] (-) TimerEvent: {}
+[27.508474] (-) TimerEvent: {}
+[27.609553] (-) TimerEvent: {}
+[27.710424] (-) TimerEvent: {}
+[27.811314] (-) TimerEvent: {}
+[27.912137] (-) TimerEvent: {}
+[28.013058] (-) TimerEvent: {}
+[28.113567] (-) TimerEvent: {}
+[28.214347] (-) TimerEvent: {}
+[28.315325] (-) TimerEvent: {}
+[28.416583] (-) TimerEvent: {}
+[28.518475] (-) TimerEvent: {}
+[28.619066] (-) TimerEvent: {}
+[28.719776] (-) TimerEvent: {}
+[28.741475] (solution) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable targetting\x1b[0m\n'}
+[28.820070] (-) TimerEvent: {}
+[28.920688] (-) TimerEvent: {}
+[29.022284] (-) TimerEvent: {}
+[29.123083] (-) TimerEvent: {}
+[29.224636] (-) TimerEvent: {}
+[29.325108] (-) TimerEvent: {}
+[29.425843] (-) TimerEvent: {}
+[29.526662] (-) TimerEvent: {}
+[29.627119] (-) TimerEvent: {}
+[29.728602] (-) TimerEvent: {}
+[29.829467] (-) TimerEvent: {}
+[29.930348] (-) TimerEvent: {}
+[30.031719] (-) TimerEvent: {}
+[30.132514] (-) TimerEvent: {}
+[30.233683] (-) TimerEvent: {}
+[30.334322] (-) TimerEvent: {}
+[30.436347] (-) TimerEvent: {}
+[30.537162] (-) TimerEvent: {}
+[30.639154] (-) TimerEvent: {}
+[30.740249] (-) TimerEvent: {}
+[30.840860] (-) TimerEvent: {}
+[30.942572] (-) TimerEvent: {}
+[31.043185] (-) TimerEvent: {}
+[31.087429] (solution) StdoutLine: {'line': b'[100%] Built target targetting\n'}
+[31.114837] (solution) CommandEnded: {'returncode': 0}
+[31.143508] (-) TimerEvent: {}
+[31.208614] (solution) JobProgress: {'identifier': 'solution', 'progress': 'install'}
+[31.230040] (solution) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution'], 'cwd': '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'quinton'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/quinton'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1307'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9c5e01b82183a5c5c8c72bd06742b70b'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'quinton'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'quinton'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/quinton/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/quinton-virtual-machine:@/tmp/.ICE-unix/1307,unix/quinton-virtual-machine:/tmp/.ICE-unix/1307'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/868b01c0_41e9_4350_a090_559e6e1b290f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z6A3X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.189'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/solution'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=9c5e01b82183a5c5c8c72bd06742b70b'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[31.243907] (-) TimerEvent: {}
+[31.250022] (solution) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.250347] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/lib/solution/targetting\n'}
+[31.259808] (solution) StdoutLine: {'line': b'-- Set runtime path of "/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/lib/solution/targetting" to ""\n'}
+[31.260096] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/ament_index/resource_index/package_run_dependencies/solution\n'}
+[31.260622] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/ament_index/resource_index/parent_prefix_path/solution\n'}
+[31.260753] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/ament_prefix_path.sh\n'}
+[31.260880] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/ament_prefix_path.dsv\n'}
+[31.260955] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/path.sh\n'}
+[31.261056] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/environment/path.dsv\n'}
+[31.261157] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.bash\n'}
+[31.261312] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.sh\n'}
+[31.262641] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.zsh\n'}
+[31.262942] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/local_setup.dsv\n'}
+[31.263077] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.dsv\n'}
+[31.263294] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/ament_index/resource_index/packages/solution\n'}
+[31.263442] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/cmake/solutionConfig.cmake\n'}
+[31.263699] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/cmake/solutionConfig-version.cmake\n'}
+[31.263821] (solution) StdoutLine: {'line': b'-- Installing: /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/solution/share/solution/package.xml\n'}
+[31.267332] (solution) CommandEnded: {'returncode': 0}
+[31.344619] (-) TimerEvent: {}
+[31.390135] (solution) JobEnded: {'identifier': 'solution', 'rc': 0}
+[31.392571] (-) EventReactorShutdown: {}

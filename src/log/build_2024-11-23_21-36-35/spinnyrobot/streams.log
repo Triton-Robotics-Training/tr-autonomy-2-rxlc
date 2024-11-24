@@ -1,0 +1,47 @@
+[1.401s] Invoking command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/spinnyrobot': PYTHONPATH=/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build install --record /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/install.log --single-version-externally-managed install_data
+[1.893s] running egg_info
+[1.895s] creating ../build/spinnyrobot/spinnyrobot.egg-info
+[1.896s] writing ../build/spinnyrobot/spinnyrobot.egg-info/PKG-INFO
+[1.896s] writing dependency_links to ../build/spinnyrobot/spinnyrobot.egg-info/dependency_links.txt
+[1.897s] writing entry points to ../build/spinnyrobot/spinnyrobot.egg-info/entry_points.txt
+[1.898s] writing requirements to ../build/spinnyrobot/spinnyrobot.egg-info/requires.txt
+[1.898s] writing top-level names to ../build/spinnyrobot/spinnyrobot.egg-info/top_level.txt
+[1.898s] writing manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+[1.900s] reading manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+[1.901s] writing manifest file '../build/spinnyrobot/spinnyrobot.egg-info/SOURCES.txt'
+[1.903s] running build
+[1.903s] running build_py
+[1.905s] creating /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build
+[1.905s] creating /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib
+[1.905s] creating /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot
+[1.906s] copying spinnyrobot/camerascenemanager.py -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot
+[1.906s] copying spinnyrobot/taskmanager.py -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot
+[1.907s] copying spinnyrobot/__init__.py -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot
+[1.907s] copying spinnyrobot/spinnyrobot.py -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot
+[1.907s] creating /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot/models
+[1.907s] copying spinnyrobot/models/model.sdf -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot/models
+[1.907s] running install
+[1.907s] running install_lib
+[1.908s] creating /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+[1.908s] copying /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot/camerascenemanager.py -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+[1.909s] copying /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot/taskmanager.py -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+[1.909s] copying /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot/__init__.py -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+[1.909s] copying /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot/spinnyrobot.py -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot
+[1.910s] creating /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/models
+[1.910s] copying /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build/lib/spinnyrobot/models/model.sdf -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/models
+[1.910s] byte-compiling /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/camerascenemanager.py to camerascenemanager.cpython-310.pyc
+[1.913s] byte-compiling /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/taskmanager.py to taskmanager.cpython-310.pyc
+[1.915s] byte-compiling /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/__init__.py to __init__.cpython-310.pyc
+[1.915s] byte-compiling /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot/spinnyrobot.py to spinnyrobot.cpython-310.pyc
+[1.916s] running install_data
+[1.917s] creating /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/ament_index
+[1.917s] creating /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/ament_index/resource_index
+[1.917s] creating /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/ament_index/resource_index/packages
+[1.917s] copying resource/spinnyrobot -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/ament_index/resource_index/packages
+[1.918s] copying package.xml -> /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/share/spinnyrobot
+[1.918s] running install_egg_info
+[1.923s] Copying ../build/spinnyrobot/spinnyrobot.egg-info to /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages/spinnyrobot-0.0.0-py3.10.egg-info
+[1.926s] running install_scripts
+[1.976s] Installing spinnyrobot script to /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/spinnyrobot
+[1.978s] writing list of installed files to '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/install.log'
+[2.040s] Invoked command in '/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/spinnyrobot' returned '0': PYTHONPATH=/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/install/spinnyrobot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/spinnyrobot build --build-base /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/build install --record /home/quinton/tritonrobotics/training/tr-autonomy-2-rxlc/src/build/spinnyrobot/install.log --single-version-externally-managed install_data
